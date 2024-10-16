@@ -48,11 +48,14 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        As a Data Scientist, I specialize in analyzing large sets of data to uncover insights that help
+        businesses make informed decisions.With expertise in Python, SQL, and tools like Tableau and Power BI,
+        I apply statistical methods and machine learning techniques to identify trends, predict outcomes,
+        and solve business challenges. My work spans across industries such as finance and technology,
+        where I help optimize processes and drive data-driven strategies.
+        I handle tasks such as data collection and cleaning, building predictive models,
+        and presenting my findings in a clear, actionable way to support better decision-making.
+       
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
