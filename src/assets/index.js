@@ -4,7 +4,7 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 import analysis from "./analysis.png";
 import ML from "./ML.png"
-import visualisation from "./visualisation.png"
+import visualisation from "./Visualisation.png"
 import AI from "./AI.png"
 
 
