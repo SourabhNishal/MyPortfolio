@@ -10,7 +10,7 @@ import AI from "./AI.png"
 
 import pandas from "./tech/pandas.png";
 import plotly from "./tech/plotly.png";
-import powerbi from "./tech/powerbi.png";
+import powerbi from "./tech/Powerbi.png";
 import tableau from "./tech/tableau.png";
 import seaborn from "./tech/seaborn.png";
 import python from "./tech/python.png";
