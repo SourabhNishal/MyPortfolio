@@ -48,13 +48,14 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        As a Data Scientist, I specialize in analyzing large sets of data to uncover insights that help
-        businesses make informed decisions.With expertise in Python, SQL, and tools like Tableau and Power BI,
-        I apply statistical methods and machine learning techniques to identify trends, predict outcomes,
-        and solve business challenges. My work spans across industries such as finance and technology,
-        where I help optimize processes and drive data-driven strategies.
-        I handle tasks such as data collection and cleaning, building predictive models,
-        and presenting my findings in a clear, actionable way to support better decision-making.
+        I specialize in turning data into actionable insights using advanced machine learning and deep learning techniques.
+        My work spans across diverse projects, from predictive analytics to natural language processing, 
+        always striving to push the boundaries of what's possible with data.
+
+        Whether it's optimizing large-scale data management, building intelligent chatbots, or crafting powerful visualizations,
+        I am committed to leveraging data to solve real-world problems. 
+        I'm passionate about continuous learning and collaboration to drive innovation in the AI and data science fields.
+
        
       </motion.p>
 

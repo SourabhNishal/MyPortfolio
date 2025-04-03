@@ -21,11 +21,11 @@ import matplotlib from "./tech/matplotlib.png";
 
 import Lum from "./company/Lum.png";
 import Myblocks from "./company/Myblocks.png";
-import Emr from "./company/Emr.png";
+import technohub from "./company/technohub.jpg";
 import tesla from "./company/tesla.png";
 
-import fifa from "./Projects/fifa.jpg";
-import fitness from "./Projects/fitness.jpg";
+import rasa from "./Projects/rasa.png";
+import music from "./Projects/music.png";
 import sales from "./Projects/sales.jpg";
 
 export {
@@ -46,9 +46,9 @@ export {
   seaborn,
   Lum,
   Myblocks,
-  Emr,
+  technohub,
   tesla,
-  fifa,
-  fitness,
+  rasa,
+  music,
   sales,
 };

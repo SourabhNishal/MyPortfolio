@@ -10,11 +10,11 @@ import {
   powerbi,
   tableau,
   Lum,
-  Emr,
+  technohub,
   Myblocks,
-  fifa,
+  rasa,
   sales,
-  fitness,
+  music,
   analysis,
 } from "../assets";
 
@@ -92,11 +92,11 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Assosiate Data Scientist",
-    company_name: "Emergio Games",
-    icon: Emr,
+    title: "Analytics Engineer",
+    company_name: "Luminar TechnoHub Research & Development Center",
+    icon: technohub,
     iconBg: "#383E56",
-    date: "August 2024 - Present",
+    date: "may 2024 - November 2024",
     points: [
       "Analyzed complex datasets using statistical methods to derive actionable insights and support decision-making.",
       "Developed predictive models and machine learning algorithms to improve business outcomes",
@@ -122,7 +122,7 @@ const experiences = [
     company_name: "MyBlocks",
     icon: Myblocks,
     iconBg: "#383E56",
-    date: "Jan 2024 - Aug 2024",
+    date: "Jan 2024 - March 2024",
     points: [
       "Conducted exploratory data analysis (EDA) to identify trends, patterns, and anomalies in datasets",
       "Participated in data cleaning and transformation processes to ensure high-quality datasets for training and testing.",
@@ -145,54 +145,29 @@ const experiences = [
   },
 ];
 
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
-];
+
 
 const projects = [
   {
-    name: "Fifa Players DataAnalysis",
+    name: "Rasa-Conversational-Chatbot",
     description:
-      "A data analysis of FIFA players typically involves exploring attributes such as skills, positions, physical metrics, and market value to gain insights into player performance, potential, and trends in the football industry",
+      "A Rasa Open Source chatbot providing information on courses, admissions, and services offered by a software training company. It uses NLP to answer user queries in a conversational manner.",
     tags: [
       {
-        name: "pandas",
+        name: "NLP",
         color: "blue-text-gradient",
       },
       {
-        name: "matplotlib",
+        name: "HTML/CSS",
         color: "green-text-gradient",
       },
       {
-        name: "plotly",
+        name: "Flask",
         color: "pink-text-gradient",
       },
     ],
-    image: fifa,
-    source_code_link: "https://github.com/Srivin002/Exploratory-Data-Analysis/blob/main/football_EDA%20(2).ipynb",
+    image: rasa,
+    source_code_link: "https://github.com/SourabhNishal/Rasa-chatbot",
   },
   {
     name: "Sales Analytics",
@@ -213,15 +188,15 @@ const projects = [
       },
     ],
     image: sales,
-    source_code_link: "https://github.com/Srivin002/Exploratory-Data-Analysis/blob/main/EDA_Sales.ipynb",
+    source_code_link: "hhhhh",
   },
   {
-    name: "Fitness Data Evaluation",
+    name: "Music-Recommendation-Sysetem",
     description:
-      "The Fitness Data Insight Extraction project aims to analyze and interpret various fitness metrics collected from users to uncover trends, patterns, and correlations that can inform better health and fitness strategies. By leveraging data from wearable devices, fitness apps, and user logs, the project will focus on key metrics such as workout duration,frequency,intensity and user engagement",
+      "This project is a Music Recommendation System that suggests songs based on a single song search query provided by the user. The system analyzes the input song and recommends similar songs to enhance the user's music discovery experience,also enhancing the listening experience.",
     tags: [
       {
-        name: "kaggle",
+        name: "python",
         color: "blue-text-gradient",
       },
       {
@@ -229,13 +204,13 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "EDA",
+        name: "Natural Language Processing",
         color: "pink-text-gradient",
       },
     ],
-    image: fitness,
-    source_code_link: "https://github.com/Srivin002/Exploratory-Data-Analysis/blob/main/FitnessTracker_EDA.ipynb",
+    image: music,
+    source_code_link: "https://github.com/SourabhNishal/Music-Reccomendation-System",
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, projects };
